@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>大学生求职资源站</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: linear-gradient(135deg, #eef3ff, #f8f9ff);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 30px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #666;
+      font-size: 16px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      border-left: 6px solid #4f7cff;
+      padding-left: 12px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 20px;
+      text-decoration: none;
+      color: #333;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+      transition: all 0.25s ease;
+      position: relative;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 30px rgba(79, 124, 255, 0.25);
+      color: #4f7cff;
+    }
+
+    .card span {
+      font-size: 14px;
+      color: #888;
+      display: block;
+      margin-top: 6px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 14px;
+      color: #999;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🎓 大学生求职资源站</h1>
+  <p>一站式校招 / 实习 / 国企 / 公务员官方入口导航</p>
+</header>
+
+<div class="container">
+
+  <!-- 国家官方 -->
+  <div class="section">
+    <h2>🇨🇳 国家官方校招平台</h2>
+    <div class="grid">
+      <a class="card" href="https://www.iguopin.com/" target="_blank">
+  <h3>国聘行动</h3>
+  <p>由国务院国资委主办，集中发布央企、国企校招与社会招聘信息。</p>
+  <span>国资委官方平台</span>
+</a>
+
+<a class="card" href="https://www.jobonline.cn/" target="_blank">
+  <h3>就业在线</h3>
+  <p>教育部官方就业服务平台，面向高校毕业生提供权威招聘信息。</p>
+  <span>教育部主办</span>
+</a>
+
+<a class="card" href="https://job.ncss.cn/" target="_blank">
+  <h3>国家大学生就业服务平台</h3>
+  <p>覆盖全国高校毕业生，提供校招、实习、就业指导等服务。</p>
+  <span>国家级就业平台</span>
+</a>
+
+<a class="card" href="http://job.mohrss.gov.cn/" target="_blank">
+  <h3>中国公共招聘网</h3>
+  <p>人社部直属招聘平台，汇集事业单位、国企及社会招聘岗位。</p>
+  <span>人社部官方</span>
+</a>
+    </div>
+  </div>
+
+  <!-- 央国企 -->
+  <div class="section">
+    <h2>🏢 央企 / 国企专项</h2>
+    <div class="grid">
+ <a class="card" href="https://www.ciicscjob.com/" target="_blank">
+  <h3>中智招聘</h3>
+  <p>覆盖近百家央企的官方招聘平台，信息权威、流程规范。</p>
+  <span>央企直招</span>
+</a>
+
+<a class="card" href="https://zhaopin.sgcc.com.cn/" target="_blank">
+  <h3>国家电网招聘</h3>
+  <p>国家电网公司统一招聘入口，面向应届生与社会人才。</p>
+  <span>央企官网</span>
+</a>
+
+<a class="card" href="http://www.tobacco.gov.cn/" target="_blank">
+  <h3>中国烟草招聘</h3>
+  <p>中国烟草系统招聘信息发布平台，岗位稳定，竞争激烈。</p>
+  <span>央企体系</span>
+</a>
+
+<a class="card" href="#" onclick="return false;">
+  <h3>各省国资委官网</h3>
+  <p>各省属国企招聘信息通常发布在对应省国资委官网。</p>
+  <span>搜索“XX省国资委”</span>
+</a>
+
+    </div>
+  </div>
+
+  <!-- 地方政府 -->
+  <div class="section">
+    <h2>🏙 地方政府招聘</h2>
+    <div class="grid">
+<a class="card" href="http://www.bjrc.com.cn/" target="_blank">
+  <h3>北京人才网</h3>
+  <p>北京市人社部门人才服务平台，提供本地招聘信息。</p>
+  <span>北京地区</span>
+</a>
+
+<a class="card" href="https://www.gdrc.com/" target="_blank">
+  <h3>广东人才网</h3>
+  <p>广东省官方人才招聘网站，覆盖事业单位与企业岗位。</p>
+  <span>广东省</span>
+</a>
+
+<a class="card" href="https://www.fsg.com.cn/" target="_blank">
+  <h3>上海外服</h3>
+  <p>提供外企、国企及人力资源服务相关岗位信息。</p>
+  <span>上海地区</span>
+</a>
+
+<a class="card" href="https://www.zjrc.com/" target="_blank">
+  <h3>浙江人才网</h3>
+  <p>浙江省人社系统招聘平台，信息更新及时。</p>
+  <span>浙江省</span>
+</a>
+
+<a class="card" href="https://www.gxrc.com/" target="_blank">
+  <h3>广西人才网</h3>
+  <p>广西地区权威招聘平台，适合本地就业。</p>
+  <span>广西壮族自治区</span>
+</a>
+
+<a class="card" href="http://www.chinaahrc.com/" target="_blank">
+  <h3>安徽人才网</h3>
+  <p>安徽省人力资源招聘服务平台。</p>
+  <span>安徽省</span>
+</a>
+
+    </div>
+  </div>
+
+  <!-- 综合招聘 -->
+  <div class="section">
+    <h2>💼 综合招聘平台</h2>
+    <div class="grid">
+<a class="card" href="https://www.51job.com/" target="_blank">
+  <h3>前程无忧</h3>
+  <p>老牌综合招聘平台，岗位覆盖面广，适合应届生。</p>
+  <span>综合招聘</span>
+</a>
+
+<a class="card" href="https://www.zhaopin.com/" target="_blank">
+  <h3>智联招聘</h3>
+  <p>提供校招、社招、测评及职业发展服务。</p>
+  <span>综合招聘</span>
+</a>
+
+<a class="card" href="https://www.zhipin.com/" target="_blank">
+  <h3>BOSS直聘</h3>
+  <p>主打直聊招聘，可直接与招聘负责人沟通。</p>
+  <span>即时沟通</span>
+</a>
+
+<a class="card" href="https://www.liepin.com/" target="_blank">
+  <h3>猎聘网</h3>
+  <p>偏中高端岗位，适合能力较强的求职者。</p>
+  <span>中高端招聘</span>
+</a>
+
+<a class="card" href="https://www.lagou.com/" target="_blank">
+  <h3>拉勾网</h3>
+  <p>专注互联网与科技行业招聘。</p>
+  <span>互联网岗位</span>
+</a>
+
+<a class="card" href="https://www.shixiseng.com/" target="_blank">
+  <h3>实习僧</h3>
+  <p>大学生实习与校招岗位聚合平台。</p>
+  <span>实习优选</span>
+</a>
+
+<a class="card" href="https://www.nowcoder.com/" target="_blank">
+  <h3>牛客网</h3>
+  <p>技术岗必备，集笔试、面经、内推于一体。</p>
+  <span>技术求职</span>
+</a>
+
+<a class="card" href="https://www.haitou.cc" target="_blank">
+  <h3>海投网</h3>
+  <p>汇总全国高校宣讲会与校招信息。</p>
+  <span>校招宣讲</span>
+</a>
+
+<a class="card" href="https://www.yingjiesheng.com/" target="_blank">
+  <h3>应届生求职网</h3>
+  <p>专注应届毕业生校招信息与笔经面经。</p>
+  <span>应届生专属</span>
+</a>
+
+    </div>
+  </div>
+
+  <!-- 企业校招 -->
+  <div class="section">
+    <h2>🏆 企业官方校招</h2>
+    <div class="grid">
+<a class="card" href="https://talent.baidu.com/jobs/" target="_blank">
+  <h3>百度校招</h3>
+  <p>互联网头部企业，技术与产品岗位丰富。</p>
+  <span>企业官网</span>
+</a>
+
+<a class="card" href="https://join.qq.com/" target="_blank">
+  <h3>腾讯校招</h3>
+  <p>涵盖技术、产品、设计、运营等岗位。</p>
+  <span>企业官网</span>
+</a>
+
+<a class="card" href="https://campus.alibaba.com/" target="_blank">
+  <h3>阿里巴巴校招</h3>
+  <p>大型互联网集团，校招体系成熟。</p>
+  <span>企业官网</span>
+</a>
+
+<a class="card" href="https://jobs.bytedance.com/campus" target="_blank">
+  <h3>字节跳动校招</h3>
+  <p>发展迅速，强调能力与潜力。</p>
+  <span>企业官网</span>
+</a>
+
+<a class="card" href="https://career.huawei.com/" target="_blank">
+  <h3>华为招聘</h3>
+  <p>技术导向明显，适合理工科背景学生。</p>
+  <span>企业官网</span>
+</a>
+
+<a class="card" href="https://www.pgcareers.com/" target="_blank">
+  <h3>宝洁校招</h3>
+  <p>全球快消巨头，管理培训生项目知名。</p>
+  <span>外企校招</span>
+</a>
+
+    </div>
+  </div>
+
+  <!-- 公务员 -->
+  <div class="section">
+    <h2>📜 公务员 / 事业单位</h2>
+    <div class="grid">
+<a class="card" href="http://www.scs.gov.cn/" target="_blank">
+  <h3>国家公务员局</h3>
+  <p>国家公务员考试公告与报名官方入口。</p>
+  <span>公务员考试</span>
+</a>
+
+<a class="card" href="https://www.gaoxiaojob.com/" target="_blank">
+  <h3>高校人才网</h3>
+  <p>高校、科研院所招聘信息集中平台。</p>
+  <span>事业单位</span>
+</a>
+
+    </div>
+  </div>
+
+  <!-- 行业垂直 -->
+  <div class="section">
+    <h2>🔧 行业垂直招聘</h2>
+    <div class="grid">
+<a class="card" href="https://hr.bjx.com.cn/" target="_blank">
+  <h3>北极星招聘</h3>
+  <p>专注能源、电力、环保行业招聘。</p>
+  <span>能源行业</span>
+</a>
+
+<a class="card" href="https://www.healthr.com/" target="_blank">
+  <h3>医药英才网</h3>
+  <p>医药、生物、医疗行业专业招聘平台。</p>
+  <span>医药行业</span>
+</a>
+
+<a class="card" href="http://www.carjob.com.cn/" target="_blank">
+  <h3>汽车人才网</h3>
+  <p>汽车制造及相关行业招聘信息。</p>
+  <span>汽车行业</span>
+</a>
+
+<a class="card" href="http://www.yinhangzhaopin.com/" target="_blank">
+  <h3>银行招聘网</h3>
+  <p>汇总全国银行系统招聘考试信息。</p>
+  <span>金融行业</span>
+</a>
+
+<a class="card" href="https://m.jinrongren.net/" target="_blank">
+  <h3>中公金融人</h3>
+  <p>金融、银行、证券考试与招聘信息。</p>
+  <span>金融考试</span>
+</a>
+
+    </div>
+  </div>
+
+  <!-- 国际 -->
+  <div class="section">
+    <h2>🌍 国际 / 外企求职</h2>
+    <div class="grid">
+<a class="card" href="https://www.linkedin.com/" target="_blank">
+  <h3>LinkedIn 领英</h3>
+  <p>全球职业社交与外企招聘平台。</p>
+  <span>国际求职</span>
+</a>
+
+<a class="card" href="https://www.indeed.com/" target="_blank">
+  <h3>Indeed 全球版</h3>
+  <p>覆盖多个国家的综合招聘搜索引擎。</p>
+  <span>海外岗位</span>
+</a>
+
+<a class="card" href="https://www.fescoadecco.com/" target="_blank">
+  <h3>外企德科</h3>
+  <p>外企与高端人才服务招聘平台。</p>
+  <span>外企服务</span>
+</a>
+
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  © 大学生求职资源站 · 建议使用电脑访问效果更佳
+</footer>
+
+</body>
+</html>
